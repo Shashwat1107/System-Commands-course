@@ -161,6 +161,8 @@ functions
     - string read from command line is stored in `$var`
 * Shell Script arguments
   - `$0` name of the shell program
+  - `$$` PID of Shell
+  - `$?` Returns code of Previously Run Program
   - `$#` number of arguments passed
   - `$1` or `${1}` first argument
   - `${11}` eleventh argument
